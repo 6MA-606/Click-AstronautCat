@@ -35,7 +35,7 @@ function App() {
 
   return (
     <main
-      className='flex flex-col items-center justify-center w-screen h-screen'
+      className='flex flex-col items-center justify-center w-screen h-screen overflow-hidden'
       ref={constraintsRef}
     >
       <motion.div
