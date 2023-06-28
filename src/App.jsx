@@ -43,7 +43,7 @@ function App() {
         whileTap={{ scale: 0.9 }}
         drag
         dragConstraints={constraintsRef}
-        dragElastic={1}
+        // dragElastic={1}
         onClick={handleClick}
       >
         {plus}
